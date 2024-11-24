@@ -13,3 +13,28 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Ignore system files and directories
+*.lnk
+*.exe
+*.pdf
+desktop.ini
+NTUSER.*
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+Recent/
+SendTo/
+Templates/
+OneDrive/
+
+# Ignore Python and IDE-related files
+venv/
+myenv/
+.idea/
+.vscode/
+__pycache__/
+
+# Ignore other unnecessary files
+*.log
+*.tmp
